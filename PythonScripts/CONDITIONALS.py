@@ -12,7 +12,6 @@
 ###################################################################
 ################### Exercise 1: Coin Toss Game ####################
 ###################################################################
-
 # Coin Toss Example
 # Simulate a coin toss
 import numpy as np
@@ -73,7 +72,7 @@ print(all(y))  # input is a logical vector, if all values are TRUE, returns one 
 ###################################################################
 ################## Exercise 2: Vending Machine ####################
 ###################################################################
-source("Vending_Machine_Clients.R")
+from Vending_Machine_Clients import *
 
 ___ = client_arrives() # Create a variable/vector representing the client
 Org_Drinks = [___, ___, ___] # Create a vector of original drinks
